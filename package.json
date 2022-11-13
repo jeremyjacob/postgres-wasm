@@ -1,0 +1,31 @@
+{
+	"name": "runtime",
+	"version": "0.0.1",
+	"description": "Run an in-memory PostgreSQL instance through the v86 emulator",
+	"main": "index.js",
+	"scripts": {
+		"build": "pnpm tsx ./build.ts && pnpm tsc --emitDeclarationOnly --outDir dist",
+		"start": "pnpm tsx ./index.ts run",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"WASM",
+		"postgres",
+		"PostgreSQL",
+		"Testing",
+		"Mock DB"
+	],
+	"author": "Jeremy Jacob",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^18.11.9",
+		"@types/ws": "^8.5.3",
+		"esbuild": "^0.15.13",
+		"tsx": "^3.12.0",
+		"typescript": "^4.8.4"
+	},
+	"dependencies": {
+		"chalk": "^5.1.2",
+		"ws": "^8.11.0"
+	}
+}
