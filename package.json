@@ -11,6 +11,7 @@
 	"keywords": [
 		"WASM",
 		"postgres",
+		"pg-wasm",
 		"PostgreSQL",
 		"Testing",
 		"Mock DB"
