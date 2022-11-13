@@ -1,7 +1,7 @@
 {
 	"name": "runtime",
 	"version": "0.0.1",
-	"description": "Run an in-memory PostgreSQL instance through the v86 emulator",
+	"description": "In-memory PostgreSQL instance through the v86 emulator",
 	"main": "index.js",
 	"scripts": {
 		"build": "pnpm tsx ./build.ts && pnpm tsc --emitDeclarationOnly --outDir dist",
